@@ -11,10 +11,10 @@ gulp.task 'rsync', (cb) ->
   wrapper = require 'rsyncwrapper'
   wrapper.rsync
     ssh: true
-    src: ['index.html', 'build']
+    src: ['index.html', 'build', 'images']
     recursive: true
     args: ['--verbose']
-    dest: 'talk-ui:/teambition/srever/talk-ui/volubile-ui'
+    dest: 'talk-ui:/teambition/server/talk-ui/volubile-ui'
     deleteAll: true
   , (error, stdout, stderr, cmd) ->
     if error?
@@ -46,7 +46,7 @@ gulp.task 'del', (cb) ->
   del ['build'], cb
 
 gulp.task 'webpack', (cb) ->
-  command = if env.dev then 'webpack' else 'webpack --config webpack.min.cirru --progress'
+  command = if env.dev then 'webpack' else 'webpack --config webpack.min.coffee --progress'
   exec command, (err, stdout, stderr) ->
     console.log stdout
     console.log stderr

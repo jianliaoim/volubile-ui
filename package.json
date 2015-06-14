@@ -13,19 +13,29 @@
   ],
   "devDependencies": {
     "cirru-script": "^0.2.3",
-    "cirru-script-loader": "0.1.0",
     "coffee-loader": "^0.7.2",
     "coffee-script": "^1.9.3",
+    "css-loader": "^0.14.5",
     "del": "^1.1.1",
+    "file-loader": "^0.8.4",
     "gulp": "^3.8.11",
     "gulp-cirru-script": "^0.1.1",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
     "rsyncwrapper": "^0.4.2",
     "run-sequence": "^1.0.2",
     "stir-template": "^0.1.4",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
     "webpack": "^1.8.5",
     "webpack-dev-server": "^1.8.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "flex.less": "git://github.com/codio/Flex.less.git",
+    "icon-fonts": "git://github.com/teambition/icon-fonts.git",
+    "normalize.css": "^3.0.3",
+    "react": "^0.13.3"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mvc-works/webpack-workflow.git"

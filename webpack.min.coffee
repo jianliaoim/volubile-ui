@@ -1,7 +1,7 @@
 
- webpack = require 'webpack'
- config = require './webpack.config'
- fs = require 'fs'
+webpack = require 'webpack'
+config = require './webpack.config'
+fs = require 'fs'
 
 module.exports =
   entry:
@@ -21,6 +21,6 @@ module.exports =
     ->
       @plugin 'done', (stats) ->
         json = stats.toJson()
-        content = JSON.stringify(json.assetsByChunkName null 2)
+        content = JSON.stringify(json.assetsByChunkName, null, 2)
         fs.writeFileSync('build/assets.json', content)
   ]
