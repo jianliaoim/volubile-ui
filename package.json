@@ -31,6 +31,7 @@
     "webpack-dev-server": "^1.8.0"
   },
   "dependencies": {
+    "classnames": "^2.1.2",
     "flex.less": "git://github.com/codio/Flex.less.git",
     "icon-fonts": "git://github.com/teambition/icon-fonts.git",
     "normalize.css": "^3.0.3",

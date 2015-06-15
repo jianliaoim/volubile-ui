@@ -10,6 +10,7 @@ SectionControl = React.createFactory require '../section/control'
 SectionDialog  = React.createFactory require '../section/dialog'
 SectionDivider = React.createFactory require '../section/divider'
 SectionFields  = React.createFactory require '../section/fields'
+SectionFonts   = React.createFactory require '../section/fonts'
 SectionIcon    = React.createFactory require '../section/icon'
 SectionList    = React.createFactory require '../section/list'
 SectionMessage = React.createFactory require '../section/message'
@@ -39,6 +40,7 @@ module.exports = React.createClass
           when 'dialog'   then SectionDialog()
           when 'divider'  then SectionDivider()
           when 'fields'   then SectionFields()
+          when 'fonts'    then SectionFonts()
           when 'icon'     then SectionIcon()
           when 'list'     then SectionList()
           when 'message'  then SectionMessage()

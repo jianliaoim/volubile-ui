@@ -8,7 +8,7 @@ var
     stir.doctype
     html null
       head null
-        title null :Workflow
+        title null ":Volubile UI"
         meta $ object (:charset :utf-8)
         link $ object (:rel :icon)
           :href :./images/volubile-400.png

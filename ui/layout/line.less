@@ -1,0 +1,29 @@
+
+.line > * + span,
+.line > * + div {
+  margin-left: 10px;
+}
+
+.line.is-dynamic > * + span,
+.line.is-dynamic > * + div {
+  margin-left: 0.5em;
+}
+
+// with icons
+
+.pretty-line {
+  .display(flex);
+  .flex-direction(row);
+  .justify-content(start);
+  .align-items(center);
+}
+
+.pretty-line > * + span,
+.pretty-line > * + div {
+  margin-left: 10px;
+}
+
+.pretty-line.is-dynamic > * + span,
+.pretty-line.is-dynamic > * + div {
+  margin-left: 0.5em;
+}

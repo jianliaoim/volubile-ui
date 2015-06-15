@@ -1,0 +1,94 @@
+
+.button-close {
+  color: #a6a6a6;
+  cursor: pointer;
+
+  &:hover {
+    color: #a6a6a6;
+  }
+}
+
+.button-close.is-white {
+  color: white;
+
+  &:hover {
+    color: white;
+  }
+}
+
+@buttonBg: hsl(240,100%,80%);
+
+.button {
+  outline: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  white-space: nowrap;
+  cursor: pointer;
+  touch-action: manipulation;
+  border-radius: 3px;
+  border: none;
+  text-transform: none;
+  -webkit-user-select: none;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  vertical-align: middle;
+  min-width: 80px;
+}
+
+// different styles
+.button.is-default {
+  background-color: white;
+  border: 1px solid #ccc;
+  color: #383838;
+  line-height: 38px;
+}
+.button.is-default:hover {
+  background-color: #eee;
+}
+.button.is-primary {
+  background-color: @buttonBg;
+
+  &:hover {
+    color: white;
+    background-color: darken(@buttonBg, 5%)
+  }
+}
+.button.is-danger {
+  color: white;
+  background-color: #ff7043;
+
+  &:hover {
+    color: white;
+    background-color: darken(#ff7043, 5%)
+  }
+}
+.button.is-disabled {
+  background-color: fade(@buttonBg, 70%);
+  cursor: default;
+}
+.button.is-link {
+  background-color: transparent;
+  color: #808080;;
+}
+
+// smaller size
+.button.is-small {
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+}
+.button.is-default.is-small {
+  line-height: 28px;
+}
+.button.is-extended {
+  display: block;
+  width: 100%;
+}
+
+// some buttons may have icons
+.button > .icon {
+  margin-right: 6px;
+}

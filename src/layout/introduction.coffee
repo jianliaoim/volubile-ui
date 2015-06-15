@@ -2,6 +2,7 @@
 React = require 'react'
 
 div = React.createFactory 'div'
+span = React.createFactory 'span'
 
 module.exports = React.createClass
   displayName: 'Introduction'
@@ -9,4 +10,6 @@ module.exports = React.createClass
   render: ->
 
     div className: 'introduction',
-      'introduction'
+      div className: 'pretty-line',
+        span className: 'logo-volubile'
+        span className: 'text-volubile', 'Volubile UI'
