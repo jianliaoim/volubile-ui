@@ -7,18 +7,18 @@ div = React.createFactory 'div'
 T = React.PropTypes
 
 entries =
-  intro: 'Introduction'
-  navbar: 'Navbar'
-  fonts: 'Fonts'
-  button: 'Buttons'
-  colors: 'Colors'
-  icon: 'Icons'
-  divider: 'Divider'
-  list: 'List'
-  fields: 'Fields'
-  control: 'Control'
-  message: 'Message'
-  dialog: 'Dialog'
+  intro: '介绍'
+  navbar: '导航条'
+  fonts: '文字'
+  button: '按钮'
+  colors: '颜色'
+  icon: '图标'
+  divider: '分割线'
+  list: '列表'
+  fields: '表单'
+  control: '控件'
+  message: '消息'
+  dialog: '弹窗'
 
 module.exports = React.createClass
   displayName: 'Sidebar'
@@ -32,6 +32,7 @@ module.exports = React.createClass
 
   render: ->
     div className: 'layout-sidebar nav-list',
+      div className: 'nav-title', '导航'
       Object.keys(entries).map (entry) =>
         onClick = => @onPageSwitch entry
         className = classnames 'entry', 'nav-item',

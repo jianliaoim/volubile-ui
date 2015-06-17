@@ -20,8 +20,11 @@
     "file-loader": "^0.8.4",
     "gulp": "^3.8.11",
     "gulp-cirru-script": "^0.1.1",
+    "highlight.js": "^8.6.0",
     "less": "^2.5.1",
     "less-loader": "^2.2.0",
+    "raw-loader": "^0.5.1",
+    "remarkable-loader": "^0.1.0",
     "rsyncwrapper": "^0.4.2",
     "run-sequence": "^1.0.2",
     "stir-template": "^0.1.4",
@@ -35,7 +38,8 @@
     "flex.less": "git://github.com/codio/Flex.less.git",
     "icon-fonts": "git://github.com/teambition/icon-fonts.git",
     "normalize.css": "^3.0.3",
-    "react": "^0.13.3"
+    "react": "^0.13.3",
+    "roboto-fontface": "^0.4.2"
   },
   "repository": {
     "type": "git",

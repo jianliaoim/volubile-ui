@@ -24,3 +24,4 @@ module.exports =
         content = JSON.stringify(json.assetsByChunkName, null, 2)
         fs.writeFileSync('build/assets.json', content)
   ]
+  remarkable: config.remarkable

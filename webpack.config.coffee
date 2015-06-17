@@ -18,19 +18,27 @@ module.exports =
     publicPath: 'http://localhost:8080/build/'
 
   resolve:
-    extensions: ['.js', '.coffee', '']
+    extensions: ['.js', '.coffee', '.less', '']
 
   module:
     loaders: [
       { test: /\.coffee/, loader: 'coffee', ignore: /node_modules/ }
       { test: /\.less/, loader: 'style!css!less' }
       {test: /\.woff((\?|\#)[\?\#\w\d_-]+)?$/, loader: "url", query: {limit: 100, minetype: 'application/font-woff', name: fontName}}
+      {test: /\.woff2((\?|\#)[\?\#\w\d_-]+)?$/, loader: "url", query: {limit: 100, minetype: 'application/font-woff2', name: fontName}}
       {test: /\.ttf((\?|\#)[\?\#\w\d_-]+)?$/, loader: "url", query: {limit: 100, minetype: "application/octet-stream", name: fontName}}
       {test: /\.eot((\?|\#)[\?\#\w\d_-]+)?$/, loader: "url", query: {limit: 100, name: fontName}}
       {test: /\.svg((\?|\#)[\?\#\w\d_-]+)?$/, loader: "url", query: {limit: 10000, minetype: "image/svg+xml", name: fontName}}
       {test: /\.png$/, loader: 'url', query: {limit: 1000, minetype: 'image/png'}}
+      { test: /\.md$/, loader: 'raw!remarkable'}
     ]
 
   plugins: [
     new webpack.optimize.CommonsChunkPlugin 'vendor', 'vendor.js'
   ]
+
+  remarkable:
+    preset: 'full'
+    linkify: true
+    typographer: true
+    breaks: true

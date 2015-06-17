@@ -22,7 +22,7 @@ module.exports = React.createClass
   displayName: 'Page'
 
   getInitialState: ->
-    page: 'intro'
+    page: 'fonts'
 
   onPageSwitch: (page) ->
     @setState page: page
