@@ -3,3 +3,5 @@
 
 HTML 标记为 CoffeeScript 风格的 JSX.
 CSS 代码采用 LESS, 依据 SMACSS 组件风格.
+
+Mixins 来自 Bootstrap.

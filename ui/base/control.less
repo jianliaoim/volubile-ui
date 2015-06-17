@@ -1,0 +1,54 @@
+
+input, textarea {
+  font-size: 14px;
+  color: #383838;
+
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+
+  // learn from Bootstrap
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  .transition(~"border-color ease-in-out .15s, box-shadow ease-in-out .15s");
+}
+
+// input
+input {
+  height: 40px;
+  line-height: 38px;
+  padding: 0 10px;
+}
+
+input.is-block {
+  display: block;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+// textarea
+textarea {
+  padding: 10px;
+}
+textarea.is-block {
+  display: block;
+  width: 100%;
+}
+
+// Disabled and read-only inputs
+input[disabled],
+textarea[disabled] {
+  background-color: #eee;
+  cursor: not-allowed;
+
+  // from Bootstrap
+  opacity: 1; // iOS fix for unreadable disabled content; see https://github.com/twbs/bootstrap/issues/11655
+}
+
+
+// focus
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #aaaaee;
+}
