@@ -35,7 +35,7 @@ module.exports = React.createClass
       div className: 'nav-title', '导航'
       Object.keys(entries).map (entry) =>
         onClick = => @onPageSwitch entry
-        className = classnames 'entry', 'nav-item',
+        className = classnames 'entry', 'nav-item', 'pretty-line',
           'is-selected': @props.page is entry
         div className: className, key: entry, onClick: onClick,
           entries[entry]

@@ -30,3 +30,12 @@ module.exports = React.createClass
         textarea className: 'is-block', placeholder: '默认 Block'
         textarea disabled: true, value: '默认 disabled'
         textarea readonly: true, value: '默认 readonly'
+
+      div className: 'heading is-l1', 'checkbox'
+      div className: 'text', '缺'
+
+      div className: 'heading is-l1', 'switcher'
+      div className: 'text', '缺'
+
+      div className: 'heading is-l1', 'radio button'
+      div className: 'text', '缺'
