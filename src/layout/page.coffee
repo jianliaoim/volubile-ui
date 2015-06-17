@@ -9,7 +9,7 @@ SectionColors  = React.createFactory require '../section/colors'
 SectionControl = React.createFactory require '../section/control'
 SectionDialog  = React.createFactory require '../section/dialog'
 SectionDivider = React.createFactory require '../section/divider'
-SectionFields  = React.createFactory require '../section/fields'
+SectionForm    = React.createFactory require '../section/form'
 SectionFonts   = React.createFactory require '../section/fonts'
 SectionIcon    = React.createFactory require '../section/icon'
 SectionList    = React.createFactory require '../section/list'
@@ -22,7 +22,7 @@ module.exports = React.createClass
   displayName: 'Page'
 
   getInitialState: ->
-    page: 'divider'
+    page: 'form'
 
   onPageSwitch: (page) ->
     @setState page: page
@@ -39,7 +39,7 @@ module.exports = React.createClass
           when 'control'  then SectionControl()
           when 'dialog'   then SectionDialog()
           when 'divider'  then SectionDivider()
-          when 'fields'   then SectionFields()
+          when 'form'     then SectionForm()
           when 'fonts'    then SectionFonts()
           when 'icon'     then SectionIcon()
           when 'list'     then SectionList()

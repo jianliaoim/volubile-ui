@@ -1,5 +1,5 @@
 
-input, textarea {
+input[type=text], textarea {
   font-size: 14px;
   color: #383838;
 
@@ -12,18 +12,18 @@ input, textarea {
 }
 
 // input
-input {
+input[type=text] {
   height: 40px;
   line-height: 38px;
   padding: 0 10px;
 }
 
-input.is-block {
+input[type=text].is-block {
   display: block;
   width: 100%;
 }
 
-input:focus {
+input[type=text]:focus {
   outline: none;
 }
 
@@ -37,7 +37,7 @@ textarea.is-block {
 }
 
 // Disabled and read-only inputs
-input[disabled],
+input[type=text][disabled],
 textarea[disabled] {
   background-color: #eee;
   cursor: not-allowed;
@@ -48,7 +48,7 @@ textarea[disabled] {
 
 
 // focus
-input:focus, textarea:focus {
+input[type=text]:focus, textarea:focus {
   outline: none;
   border-color: #aaaaee;
 }

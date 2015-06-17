@@ -26,8 +26,8 @@ ColorClock = React.createFactory React.createClass
     div className: 'color-block pretty-line',
       div className: 'color-preview', style: style, '白色 white'
       div className: 'color-font', style: fontStyle, '文字 font'
-      input className: 'color-name', value: name, readonly: true
-      input className: 'color-value', value: value, readonly: true
+      input type: 'text', className: 'color-name', value: name, readOnly: true
+      input type: 'text', className: 'color-value', value: value, readOnly: true
 
 
 module.exports = React.createClass
@@ -38,14 +38,14 @@ module.exports = React.createClass
       div className: 'heading is-l1', '文字颜色'
       Object.keys(fontColors).map (name) =>
         value = fontColors[name]
-        ColorClock name: name, value: value
+        ColorClock name: name, value: value, key: name
 
       div className: 'heading is-l1', '提示颜色'
       Object.keys(hintColors).map (name) =>
         value = hintColors[name]
-        ColorClock name: name, value: value
+        ColorClock name: name, value: value, key: name
 
       div className: 'heading is-l1', '线条颜色'
       Object.keys(lineColors).map (name) =>
         value = lineColors[name]
-        ColorClock name: name, value: value
+        ColorClock name: name, value: value, key: name

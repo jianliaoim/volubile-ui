@@ -15,7 +15,7 @@ entries =
   icon: '图标'
   divider: '分割线'
   list: '列表'
-  fields: '表单'
+  form: '表单'
   control: '控件'
   message: '消息'
   dialog: '弹窗'

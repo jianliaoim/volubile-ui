@@ -17,19 +17,19 @@ module.exports = React.createClass
 
       div className: 'heading is-l1', 'input'
       div className: 'demo-board',
-        input placeholder: '默认'
-        input value: '中文 English'
-        input className: 'is-block', placeholder: '默认 Block'
-        input disabled: true, value: '默认 disabled'
-        input readonly: true, value: '默认 readonly'
+        input type: 'text', placeholder: '默认'
+        input type: 'text', value: '中文 English', onChange: ->
+        input type: 'text', className: 'is-block', placeholder: '默认 Block'
+        input type: 'text', disabled: true, value: '默认 disabled'
+        input type: 'text', readOnly: true, value: '默认 readonly'
 
       div className: 'heading is-l1', 'textarea'
       div className: 'demo-board',
         textarea placeholder: '默认'
-        textarea value: '中文 English'
+        textarea value: '中文 English', onChange: ->
         textarea className: 'is-block', placeholder: '默认 Block'
         textarea disabled: true, value: '默认 disabled'
-        textarea readonly: true, value: '默认 readonly'
+        textarea readOnly: true, value: '默认 readonly'
 
       div className: 'heading is-l1', 'checkbox'
       div className: 'text', '缺'
