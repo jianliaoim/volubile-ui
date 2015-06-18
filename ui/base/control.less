@@ -1,8 +1,7 @@
 
-input[type=text], textarea {
+input[type=text], input[type=email], textarea {
   font-size: 14px;
   color: #383838;
-  box-sizing: content-box;
 
   border-radius: 3px;
   border: 1px solid #d9d9d9;
@@ -13,18 +12,15 @@ input[type=text], textarea {
 }
 
 // input
-input[type=text] {
+input[type=text], input[type=email] {
   line-height: 38px;
   padding: 0 10px;
 }
 
+input[type=email].is-block,
 input[type=text].is-block {
   display: block;
   width: 100%;
-}
-
-input[type=text]:focus {
-  outline: none;
 }
 
 // textarea
@@ -38,6 +34,7 @@ textarea.is-block {
 
 // Disabled and read-only inputs
 input[type=text][disabled],
+input[type=email][disabled],
 textarea[disabled] {
   background-color: #eee;
   cursor: not-allowed;
@@ -48,7 +45,9 @@ textarea[disabled] {
 
 
 // focus
-input[type=text]:focus, textarea:focus {
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
   outline: none;
-  border-color: #aaaaee;
+  border-color: hsl(0, 0%, 65%);
 }
