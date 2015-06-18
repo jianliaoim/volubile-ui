@@ -1,18 +1,19 @@
 {
-  "name": "webpack-workflow",
+  "name": "volubile-ui",
   "version": "0.0.1",
-  "description": "Web app scaffold based on Webpack",
+  "description": "UI Framework for Talk by Teambition",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "jiyinyiyong",
-  "license": "MIT",
+  "author": "Teambition",
+  "license": "Undecided",
   "keywords": [
-    "workflow"
+    "UI", "Teambition"
   ],
   "devDependencies": {
     "cirru-script": "^0.2.3",
+    "classnames": "^2.1.2",
     "coffee-loader": "^0.7.2",
     "coffee-script": "^1.9.3",
     "css-loader": "^0.14.5",
@@ -24,6 +25,7 @@
     "less": "^2.5.1",
     "less-loader": "^2.2.0",
     "raw-loader": "^0.5.1",
+    "react": "^0.13.3",
     "remarkable-loader": "^0.1.0",
     "rsyncwrapper": "^0.4.2",
     "run-sequence": "^1.0.2",
@@ -34,19 +36,17 @@
     "webpack-dev-server": "^1.8.0"
   },
   "dependencies": {
-    "classnames": "^2.1.2",
     "flex.less": "git://github.com/codio/Flex.less.git",
     "icon-fonts": "git://github.com/teambition/icon-fonts.git",
     "normalize.css": "^3.0.3",
-    "react": "^0.13.3",
     "roboto-fontface": "^0.4.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mvc-works/webpack-workflow.git"
+    "url": "https://github.com/teambition/volubile-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/mvc-works/webpack-workflow/issues"
+    "url": "https://github.com/teambition/volubile-ui/issues"
   },
-  "homepage": "https://github.com/mvc-works/webpack-workflow"
+  "homepage": "https://github.com/teambition/volubile-ui"
 }
