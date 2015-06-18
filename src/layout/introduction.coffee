@@ -12,7 +12,7 @@ module.exports = React.createClass
   render: ->
 
     div className: 'introduction',
-      div className: 'pretty-line',
+      div className: 'rich-line',
         span className: 'logo-volubile'
         span className: 'text-volubile', 'Volubile UI'
 

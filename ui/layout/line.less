@@ -11,7 +11,7 @@
 
 // with icons
 
-.pretty-line {
+.rich-line {
   min-height: 34px;
   .display(flex);
   .flex-direction(row);
@@ -19,12 +19,20 @@
   .align-items(center);
 }
 
-.pretty-line > * + span,
-.pretty-line > * + div {
+.rich-line > * + span,
+.rich-line > * + div,
+.rich-line > * + input {
   margin-left: 10px;
 }
 
-.pretty-line.is-dynamic > * + span,
-.pretty-line.is-dynamic > * + div {
+.rich-line.is-dynamic > * + span,
+.rich-line.is-dynamic > * + div {
   margin-left: 0.5em;
+}
+
+.rich-line input,
+.rich-line textarea,
+.rich-line .button {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }

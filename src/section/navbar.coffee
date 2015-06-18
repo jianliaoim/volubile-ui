@@ -31,7 +31,7 @@ module.exports = React.createClass
           div className: 'nav-left spring-board',
             span className: 'board-icon icon icon-audio'
             span className: 'board-text', 'Audio'
-          div className: 'nav-right pretty-line',
+          div className: 'nav-right rich-line',
             span className: 'icon icon-audio'
             span className: 'icon icon-video'
 

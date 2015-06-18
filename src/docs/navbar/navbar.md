@@ -1,6 +1,6 @@
 
 导航栏左右布局, 内容都居中, 使用 Flexbox 将元素撑到两边.
-如果元素很多的话用 `pretty-line` 将多个元素分组.
+如果元素很多的话用 `rich-line` 将多个元素分组.
 
 ```coffee
 outlineStyle =
@@ -17,7 +17,7 @@ div className: 'demo-board',
     div className: 'nav-left spring-board',
       span className: 'board-icon icon icon-audio'
       span className: 'board-text', 'Audio'
-    div className: 'nav-right pretty-line',
+    div className: 'nav-right rich-line',
       span className: 'icon icon-audio'
       span className: 'icon icon-video'
 ```

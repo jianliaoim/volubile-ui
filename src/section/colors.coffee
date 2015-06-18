@@ -23,7 +23,7 @@ ColorClock = React.createFactory React.createClass
       backgroundColor: value
     fontStyle =
       color: value
-    div className: 'color-block pretty-line',
+    div className: 'color-block rich-line',
       div className: 'color-preview', style: style, '白色 white'
       div className: 'color-font', style: fontStyle, '文字 font'
       input type: 'text', className: 'color-name', value: name, readOnly: true

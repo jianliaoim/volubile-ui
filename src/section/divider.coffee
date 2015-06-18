@@ -16,19 +16,19 @@ module.exports = React.createClass
       div className: 'heading is-l1', '横向分割 inline-divider'
       Doc section: 'divider', topic: 'inline-divider'
       div className: 'demo-board',
-        div className: 'pretty-line',
+        div className: 'rich-line',
           span className: 'text', '文字'
           span className: 'text', '文字'
           div className: 'inline-divider'
           span className: 'text', '文字'
           span className: 'text', '文字'
-        div className: 'pretty-line',
+        div className: 'rich-line',
           div className: 'button is-primary', 'Button'
           div className: 'button is-primary', 'Button'
           div className: 'inline-divider'
           div className: 'button is-primary', 'Button'
           div className: 'button is-primary', 'Button'
-        div className: 'pretty-line',
+        div className: 'rich-line',
           div className: 'button is-primary', 'Button'
           span className: 'text', '文字'
           div className: 'inline-divider'
