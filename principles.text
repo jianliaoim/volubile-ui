@@ -1,0 +1,44 @@
+
+
+list
+height 34px
+padding x15px
+font-size 14px
+icon-size 24px
+font-padding 10px
+
+
+list-title
+height 30px
+margin-bottom 5px
+
+
+scrollbar
+width 5px
+
+
+main-navbar
+avatar size 32px
+font-size 18px
+padding 15px
+
+button
+height 40px
+padding 15px
+margin 10px
+
+section
+margin-vertical 30px
+title-margin-bottom 5px
+
+icon
+size ? 24px
+margin 10px
+
+divider
+size 1px
+color #eeeeee
+margin 10px
+
+text-button
+margin 40px(10 + 15 + 15)
