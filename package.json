@@ -9,7 +9,8 @@
   "author": "Teambition",
   "license": "Undecided",
   "keywords": [
-    "UI", "Teambition"
+    "UI",
+    "Teambition"
   ],
   "devDependencies": {
     "cirru-script": "^0.2.3",
@@ -39,6 +40,7 @@
     "flex.less": "git://github.com/codio/Flex.less.git",
     "icon-fonts": "git://github.com/teambition/icon-fonts.git",
     "normalize.css": "^3.0.3",
+    "react-router": "^0.13.3",
     "roboto-fontface": "^0.4.2"
   },
   "repository": {

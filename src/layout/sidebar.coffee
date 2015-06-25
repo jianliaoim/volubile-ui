@@ -1,13 +1,14 @@
 
 React = require 'react'
 classnames = require 'classnames'
+Router = require 'react-router'
 
 div = React.createFactory 'div'
 
 T = React.PropTypes
 
 entries =
-  intro: '介绍'
+  '': '介绍'
   navbar: '导航条'
   fonts: '文字'
   button: '按钮'
@@ -23,13 +24,10 @@ entries =
 
 module.exports = React.createClass
   displayName: 'Sidebar'
-
-  propTypes:
-    page: T.string.isRequired
-    onPageSwitch: T.func.isRequired
+  mixins: [Router.Navigation, Router.State]
 
   onPageSwitch: (page) ->
-    @props.onPageSwitch page
+    @transitionTo "/#{page}"
 
   render: ->
     div className: 'layout-sidebar nav-list',
@@ -37,6 +35,6 @@ module.exports = React.createClass
       Object.keys(entries).map (entry) =>
         onClick = => @onPageSwitch entry
         className = classnames 'entry', 'nav-item', 'rich-line',
-          'is-selected': @props.page is entry
+          'is-selected': @getPath() is "/#{entry}"
         div className: className, key: entry, onClick: onClick,
           entries[entry]
