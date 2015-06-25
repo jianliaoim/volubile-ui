@@ -15,6 +15,7 @@ SectionIcon    = React.createFactory require '../section/icon'
 SectionList    = React.createFactory require '../section/list'
 SectionMessage = React.createFactory require '../section/message'
 SectionNavbar  = React.createFactory require '../section/navbar'
+SectionLabel = React.createFactory require '../section/label'
 
 div = React.createFactory 'div'
 
@@ -22,7 +23,7 @@ module.exports = React.createClass
   displayName: 'Page'
 
   getInitialState: ->
-    page: 'form'
+    page: 'label'
 
   onPageSwitch: (page) ->
     @setState page: page
@@ -45,4 +46,5 @@ module.exports = React.createClass
           when 'list'     then SectionList()
           when 'message'  then SectionMessage()
           when 'navbar'   then SectionNavbar()
+          when 'label'    then SectionLabel()
           else '404'

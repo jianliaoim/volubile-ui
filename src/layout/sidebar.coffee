@@ -13,6 +13,7 @@ entries =
   button: '按钮'
   colors: '颜色'
   icon: '图标'
+  label: '标签'
   divider: '分割线'
   list: '列表'
   form: '表单'
