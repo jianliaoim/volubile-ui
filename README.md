@@ -10,6 +10,22 @@ Home Page http://ui.talk.ai/volubile-ui/
 
 ### Usage
 
+```
+npm i --save volubile-ui
+```
+
+Import module in JavaScript in Webpack:
+
+```coffee
+require('volubile-ui/ui/index.less')
+```
+
+Import module in LESS in Webpack:
+
+```less
+@import '~volubile-ui/ui/index'
+```
+
 ### Developing
 
 * Development
