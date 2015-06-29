@@ -17,6 +17,7 @@ sectionList     = require './section/list'
 sectionMessage  = require './section/message'
 sectionNavbar   = require './section/navbar'
 sectionLabel    = require './section/label'
+sectionBanner    = require './section/banner'
 
 page = require './layout/page'
 
@@ -39,6 +40,7 @@ routes =
     Route path: 'message',  handler: sectionMessage
     Route path: 'navbar',   handler: sectionNavbar
     Route path: 'label',    handler: sectionLabel
+    Route path: 'banner',    handler: sectionBanner
     NotFoundRoute handler: notFound
 
 Router.run routes, Router.HashLocation, (Root) ->

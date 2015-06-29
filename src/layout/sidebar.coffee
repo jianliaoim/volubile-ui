@@ -10,6 +10,7 @@ T = React.PropTypes
 entries =
   '': '介绍'
   navbar: '导航条'
+  banner: 'Banner'
   fonts: '文字'
   button: '按钮'
   colors: '颜色'
