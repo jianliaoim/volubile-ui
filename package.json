@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "flex.less": "git://github.com/codio/Flex.less.git",
-    "icon-fonts": "git://github.com/teambition/icon-fonts.git",
+    "teambition-icon-fonts": "^0.72.2",
     "normalize.css": "^3.0.3",
     "roboto-fontface": "^0.4.2"
   },
