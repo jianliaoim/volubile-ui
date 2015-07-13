@@ -1,6 +1,6 @@
 {
   "name": "volubile-ui",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "UI Framework for Talk by Teambition",
   "main": "main.js",
   "scripts": {
@@ -21,7 +21,6 @@
     "del": "^1.1.1",
     "file-loader": "^0.8.4",
     "gulp": "^3.8.11",
-    "gulp-cirru-script": "^0.1.1",
     "highlight.js": "^8.6.0",
     "less": "^2.5.1",
     "less-loader": "^2.2.0",
