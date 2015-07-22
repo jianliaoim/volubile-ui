@@ -12,6 +12,10 @@ fontColors =
   'font-reverse-1': 'rgba(255, 255, 255, 1)'
   'font-reverse-2': 'rgba(255, 255, 255, 0.8)'
 
+iconColors =
+  'icon-level-1': 'rgba(166, 166, 166, 1)'
+  'icon-reverse-1': 'rgba(255, 255, 255, 0.8)'
+
 bgColors =
   'gray-bg-level-1': 'rgba(247, 247, 247, 1)'
   'gray-bg-level-2': 'rgba(238, 238, 238, 0.2)'
@@ -23,12 +27,12 @@ borderColors =
   'border-level-1': 'rgba(217, 217, 217, 1)'
 
 themeColors =
-  blueberry: 'hsl(231, 44%, 56%)'
-  grape: 'hsl(291, 50%, 39%)'
-  ink: 'hsl(0, 0%, 26%)'
-  mint: 'hsl(174, 100%, 29%)'
-  ocean: 'hsl(210, 79%, 46%)'
-  tea: 'hsl(146, 46%, 41%)'
+  'theme-blueberry': 'hsl(231, 44%, 56%)'
+  'theme-grape': 'hsl(291, 50%, 39%)'
+  'theme-ink': 'hsl(0, 0%, 26%)'
+  'theme-mint': 'hsl(174, 100%, 29%)'
+  'theme-ocean': 'hsl(210, 79%, 46%)'
+  'theme-tea': 'hsl(146, 46%, 41%)'
 
 hintColors =
   'hint-unread': 'hsl(14, 100%, 63%)'
@@ -56,6 +60,11 @@ module.exports = React.createClass
       div className: 'heading is-l1', '文字颜色'
       Object.keys(fontColors).map (name) =>
         value = fontColors[name]
+        ColorBlock name: name, value: value, key: name
+
+      div className: 'heading is-l1', '图标颜色'
+      Object.keys(iconColors).map (name) =>
+        value = iconColors[name]
         ColorBlock name: name, value: value, key: name
 
       div className: 'heading is-l1', '背景颜色'
