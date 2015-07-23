@@ -22,6 +22,7 @@ bgColors =
 
 shadowColors =
   'shadow-level-1': 'rgba(0, 0, 0, 0.3)'
+  'shadow-level-2': 'rgba(0, 0, 0, 0.2)'
 
 borderColors =
   'border-level-1': 'rgba(217, 217, 217, 1)'
