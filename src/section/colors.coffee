@@ -25,17 +25,18 @@ shadowColors =
 
 borderColors =
   'border-level-1': 'rgba(217, 217, 217, 1)'
+  'border-level-2': 'rgba(238, 238, 238, 1)'
 
 themeColors =
-  'theme-blueberry': 'hsl(231, 44%, 56%)'
-  'theme-grape': 'hsl(291, 50%, 39%)'
-  'theme-ink': 'hsl(0, 0%, 26%)'
-  'theme-mint': 'hsl(174, 100%, 29%)'
-  'theme-ocean': 'hsl(210, 79%, 46%)'
-  'theme-tea': 'hsl(146, 46%, 41%)'
+  'theme-blueberry': 'rgb(93, 108, 192)'
+  'theme-grape': 'rgb(134, 50, 149)'
+  'theme-ink': 'rgb(66, 66, 66)'
+  'theme-mint': 'rgb(0, 148, 133)'
+  'theme-ocean': 'rgb(25, 117, 210)'
+  'theme-tea': 'rgb(56, 153, 98)'
 
 hintColors =
-  'hint-unread': 'hsl(14, 100%, 63%)'
+  'notice-level-1': 'rgb(255, 112, 67)'
 
 ColorBlock = React.createFactory React.createClass
   displayName: 'color-block'
