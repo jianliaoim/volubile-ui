@@ -44,6 +44,13 @@ gulp.task 'webpack', (cb) ->
     console.log stderr
     cb err
 
+gulp.task 'script', ->
+  coffee = require('gulp-coffee')
+  gulp
+  .src 'src/components/*.coffee'
+  .pipe coffee()
+  .pipe gulp.dest('lib/')
+
 gulp.task 'build', (cb) ->
   env.dev = false
   sequence 'del', 'webpack', 'html', cb

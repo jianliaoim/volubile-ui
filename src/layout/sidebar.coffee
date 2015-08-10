@@ -22,6 +22,7 @@ entries =
   control: '控件'
   message: '消息'
   dialog: '弹窗'
+  components: '自定义组件'
 
 module.exports = React.createClass
   displayName: 'Sidebar'
