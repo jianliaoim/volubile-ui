@@ -48,7 +48,7 @@ gulp.task 'script', ->
   coffee = require('gulp-coffee')
   gulp
   .src 'src/components/*.coffee'
-  .pipe coffee()
+  .pipe coffee({bare: true})
   .pipe gulp.dest('lib/')
 
 gulp.task 'build', (cb) ->

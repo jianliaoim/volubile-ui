@@ -5,8 +5,6 @@ Doc = React.createFactory require '../layout/doc'
 
 div = React.createFactory 'div'
 span = React.createFactory 'span'
-svg = React.createFactory 'svg'
-polygon = React.createFactory 'polygon'
 
 module.exports = React.createClass
   displayName: 'Icon'

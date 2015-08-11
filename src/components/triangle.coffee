@@ -9,11 +9,10 @@ module.exports = React.createClass
   displayName: 'triangle'
 
   propTypes:
-    onClick: React.PropTypes.func
     type: React.PropTypes.string
 
   render: ->
-    div className:'triangle', onClick: this.props.onClick,
+    div className:'svg-triangle',
       switch this.props.type
         when 'right'
           svg width:'8', height:'8', viewBox:'0 0 8 8', fill: 'grey',

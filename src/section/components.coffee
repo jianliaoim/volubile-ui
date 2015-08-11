@@ -15,12 +15,21 @@ module.exports = React.createClass
       Doc section: 'components', topic: 'overview'
       div className: 'heading is-l1', '三角形-向下'
       div className: 'demo-board',
-        div {}, "Triangle onClick: -> alert 'clicked'"
+        div {}, "Triangle"
       div className: 'demo-board',
-        div {}, Triangle onClick: -> alert 'clicked'
+        div {}, Triangle null
+      div className: 'demo-board',
+        div {},
+          span {style:{float:'left', marginRight:6}}, '搜索'
+          Triangle null
+
 
       div className: 'heading is-l1', '三角形-向右'
       div className: 'demo-board',
-        div {}, "Triangle type:'right', onClick: -> alert 'clicked'"
+        div {}, "Triangle type:'right'"
       div className: 'demo-board',
-        div {}, Triangle type:'right', onClick: -> alert 'clicked'
+        div {}, Triangle type:'right'
+      div className: 'demo-board',
+        div {},
+          span {style:{float:'left', marginRight:6}}, '进入'
+          Triangle {type:'right'}
