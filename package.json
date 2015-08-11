@@ -1,13 +1,13 @@
 {
   "name": "volubile-ui",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "UI Framework for Talk by Teambition",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Teambition",
-  "license": "Undecided",
+  "license": "MIT",
   "keywords": [
     "UI",
     "Teambition"
@@ -25,7 +25,6 @@
     "less": "^2.5.1",
     "less-loader": "^2.2.0",
     "raw-loader": "^0.5.1",
-    "react": "^0.13.3",
     "react-router": "^0.13.3",
     "remarkable-loader": "^0.1.0",
     "rsyncwrapper": "^0.4.2",
@@ -40,6 +39,7 @@
     "flex.less": "git://github.com/codio/Flex.less.git",
     "gulp-coffee": "^2.3.1",
     "normalize.css": "^3.0.3",
+    "react": "^0.13.3",
     "roboto-fontface": "^0.4.2",
     "teambition-icon-fonts": "^0.72.2"
   },
