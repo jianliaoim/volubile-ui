@@ -26,6 +26,12 @@ module.exports = React.createClass
         a href: 'https://github.com/teambition/icon-fonts', 'icon-fonts'
         span null, '图标字体'
       div className: 'line',
+        a href: 'https://github.com/teambition/talk-msg-dsl', 'talk-msg-dsl'
+        span null, '消息 DSL 处理模块'
+      div className: 'line',
+        a href: 'https://github.com/teambition/talk-message-forms', 'talk-message-forms'
+        span null, '消息聚合内容渲染组件'
+      div className: 'line',
         a href: 'https://github.com/teambition/react-lite-dropdown', 'react-lite-dropdown'
         span null, 'Dropdown 菜单'
       div className: 'line',
