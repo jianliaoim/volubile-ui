@@ -2,7 +2,7 @@
   "name": "volubile-ui",
   "version": "0.0.11",
   "description": "Basic UI Framework and Interfaces of jianliao.com",
-  "main": "ui/index.less",
+  "main": "src/index.less",
   "dependencies": {
     "normalize.css": "^3.0.3",
     "react": "^0.13.3",
