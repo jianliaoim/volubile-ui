@@ -17,13 +17,13 @@ npm i --save volubile-ui
 Import module in JavaScript in Webpack:
 
 ```coffee
-require('volubile-ui/ui/index.less')
+require('volubile-ui/src/index.less')
 ```
 
 Import module in LESS in Webpack:
 
 ```less
-@import '~volubile-ui/ui/index'
+@import '~volubile-ui/src/index'
 ```
 
 ### Developing
@@ -31,16 +31,13 @@ Import module in LESS in Webpack:
 * Development
 
 ```text
-npm i
-gulp html
-webpack-dev-server --hot
+npm i && npm start
 ```
 
 * Production
 
 ```text
-gulp buld
-gulp rsync
+npm run rsync
 ```
 
 ### License
