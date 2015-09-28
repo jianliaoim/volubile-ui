@@ -1,7 +1,6 @@
 
 React = require 'react'
 Router = require 'react-router'
-require './style/main.less'
 
 introduction    = require './layout/introduction'
 notFound        = require './layout/not-found'

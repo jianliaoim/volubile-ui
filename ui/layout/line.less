@@ -13,11 +13,13 @@
 // with icons
 
 .rich-line {
+  display: flex;
+
   min-height: 34px;
-  .display(flex);
-  .flex-direction(row);
-  .justify-content(start);
-  .align-items(center);
+
+  align-items: center;
+  flex-direction: row;
+  justify-content: start;
 }
 
 .rich-line > * + span,

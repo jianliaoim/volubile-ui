@@ -1,9 +1,12 @@
+/.port
 
-/webpack.*
 /gulpfile.*
+/index.*
+/port.coffee
 /principles.text
-/template.*
-/src/
-/index.html
+/start.sh
+/webpack.*
+
 /build
 /images
+/site

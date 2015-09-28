@@ -1,6 +1,8 @@
+*.idea
+*.log
 
-/build/
-/lib/
-/node_modules/
-/assets.json
+/.port
 /index.html
+
+/build
+/node_modules

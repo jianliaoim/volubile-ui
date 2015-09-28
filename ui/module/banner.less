@@ -3,12 +3,13 @@
   display: block;
   position: relative;
   cursor: pointer;
-  .clearfix();
+  // .clearfix();
 
-  .display(flex);
-  .justify-content(flex-start);
-  .align-items(center);
-  .flex-direction(row);
+  display: flex;
+
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
 
   >.is-leading {
     border-radius: 50%;
@@ -20,7 +21,7 @@
     line-height: 24px;
     float: none;
     background-color: #4fc3f7;
-    .flex(0, 0, auto);
+    flex: 0 0 auto;
   }
 
   >.name {
@@ -30,7 +31,7 @@
     text-overflow: ellipsis;
 
     &.full {
-      .flex(1, 1, auto);
+      flex: 1 1 auto;
     }
   }
 }

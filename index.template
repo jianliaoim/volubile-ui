@@ -1,0 +1,12 @@
+<html>
+<head>
+  <title>volubile ui</title>
+  <meta charset="utf-8" />
+  <link rel="icon" href="./images/volubile-400.png" />
+  <link rel="stylesheet" href="{{ style }}" />
+  <script src="{{ vendor }}" defer="true"></script>
+  <script src="{{ main }}" defer="true"></script>
+</head>
+<body>
+</body>
+</html>
