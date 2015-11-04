@@ -49,3 +49,15 @@ module.exports = React.createClass
       div className: 'line',
         a href: 'https://github.com/teambition/react-lite-uploader', 'react-lite-uploader'
         span null, '上传组件(试验项目)'
+      div className: 'line',
+        a href: 'https://github.com/teambition/react-lite-image', 'react-lite-image'
+        span null, '图片显示组件'
+      div className: 'line',
+        a href: 'https://github.com/teambition/react-lite-textbox', 'react-lite-textbox'
+        span null, '带光标像素位置的输入框组件'
+      div className: 'line',
+        a href: 'https://github.com/teambition/react-lite-json-viewer', 'react-lite-json-viewer'
+        span null, 'JSON 数据层查看工具'
+      div className: 'line',
+        a href: 'https://github.com/teambition/router-view', 'router-view'
+        span null, '路由组件'

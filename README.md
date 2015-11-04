@@ -2,7 +2,7 @@
 Volubile UI from Talk by Teambition
 ----
 
-Home Page http://ui.talk.ai/volubile-ui/
+Home Page and components http://ui.talk.ai/volubile-ui/
 
 ![](./images/volubile-400.png)
 
@@ -10,7 +10,7 @@ Home Page http://ui.talk.ai/volubile-ui/
 
 ### Usage
 
-```
+```bash
 npm i --save volubile-ui
 ```
 
