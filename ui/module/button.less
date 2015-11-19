@@ -65,8 +65,16 @@
     background-color: darken(#ff7043, 5%)
   }
 }
-.button.is-disabled {
+.button.is-primary.is-disabled {
   background-color: fade(@buttonBg, 70%);
+  cursor: default;
+}
+.button.is-danger.is-disabled {
+  background-color: fade(#ff7043, 70%);
+  cursor: default;
+}
+.button.is-default.is-disabled {
+  background-color: fade(@white, 70%);
   cursor: default;
 }
 .button.is-link {

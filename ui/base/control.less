@@ -1,5 +1,5 @@
 
-input[type=text], input[type=email], textarea {
+input[type=text], input[type=email], input[type=password], textarea {
   font-size: 14px;
   color: #383838;
 
@@ -12,13 +12,14 @@ input[type=text], input[type=email], textarea {
 }
 
 // input
-input[type=text], input[type=email] {
+input[type=text], input[type=email], input[type=password] {
   line-height: 38px;
   padding: 0 10px;
 }
 
 input[type=email].is-block,
-input[type=text].is-block {
+input[type=text].is-block,
+input[type=password].is-block {
   display: block;
   width: 100%;
 }
@@ -35,6 +36,7 @@ textarea.is-block {
 // Disabled and read-only inputs
 input[type=text][disabled],
 input[type=email][disabled],
+input[type=password][disabled],
 textarea[disabled] {
   background-color: #eee;
   cursor: not-allowed;
@@ -47,6 +49,7 @@ textarea[disabled] {
 // focus
 input[type=text]:focus,
 input[type=email]:focus,
+input[type=password]:focus,
 textarea:focus {
   outline: none;
   border-color: hsl(0, 0%, 65%);
