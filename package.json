@@ -39,6 +39,7 @@
     "flex.less": "git://github.com/codio/Flex.less.git",
     "gulp-coffee": "^2.3.1",
     "normalize.css": "^3.0.3",
+    "open-sans-fontface": "1.4.0",
     "react": "^0.13.3",
     "roboto-fontface": "^0.4.2",
     "teambition-icon-fonts": "^0.72.2"
