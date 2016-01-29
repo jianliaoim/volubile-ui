@@ -1,5 +1,6 @@
 
 React = require 'react'
+ReactDOM = require 'react-dom'
 Router = require 'react-router'
 require './style/main.less'
 
@@ -46,4 +47,4 @@ routes =
     NotFoundRoute handler: notFound
 
 Router.run routes, Router.HashLocation, (Root) ->
-  React.render (React.createElement Root), document.body
+  ReactDOM.render (React.createElement Root), document.querySelector('.demo')

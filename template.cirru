@@ -15,3 +15,5 @@ var
         script $ object (:src data.vendor) (:defer true)
         script $ object (:src data.main) (:defer true)
       body null
+        div
+          object (:class :demo)

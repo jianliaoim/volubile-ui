@@ -4,7 +4,8 @@
   "description": "UI Framework for Talk by Teambition",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp build && gulp script",
+    "dev": "gulp html && webpack-dev-server --hot"
   },
   "author": "Teambition",
   "license": "MIT",
@@ -25,6 +26,7 @@
     "less": "^2.5.1",
     "less-loader": "^2.2.0",
     "raw-loader": "^0.5.1",
+    "react-dom": "^0.14.7",
     "react-router": "^0.13.3",
     "remarkable-loader": "^0.1.0",
     "rsyncwrapper": "^0.4.2",
@@ -40,7 +42,7 @@
     "gulp-coffee": "^2.3.1",
     "normalize.css": "^3.0.3",
     "open-sans-fontface": "1.4.0",
-    "react": "^0.13.3",
+    "react": "^0.14.7",
     "roboto-fontface": "^0.4.2",
     "teambition-icon-fonts": "^0.72.2"
   },
