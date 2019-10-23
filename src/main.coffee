@@ -29,20 +29,20 @@ NotFoundRoute = React.createFactory Router.NotFoundRoute
 
 routes =
   Route handler: page,
-    DefaultRoute    handler: introduction
-    Route path: 'button',   handler: sectionButton
-    Route path: 'colors',   handler: sectionColors
-    Route path: 'control',  handler: sectionControl
-    Route path: 'dialog',   handler: sectionDialog
-    Route path: 'divider',  handler: sectionDivider
-    Route path: 'form',     handler: sectionForm
-    Route path: 'fonts',    handler: sectionFonts
-    Route path: 'icon',     handler: sectionIcon
-    Route path: 'list',     handler: sectionList
-    Route path: 'message',  handler: sectionMessage
-    Route path: 'navbar',   handler: sectionNavbar
-    Route path: 'label',    handler: sectionLabel
-    Route path: 'banner',    handler: sectionBanner
+    DefaultRoute handler: introduction
+    Route path: 'button',     handler: sectionButton
+    Route path: 'colors',     handler: sectionColors
+    Route path: 'control',    handler: sectionControl
+    Route path: 'dialog',     handler: sectionDialog
+    Route path: 'divider',    handler: sectionDivider
+    Route path: 'form',       handler: sectionForm
+    Route path: 'fonts',      handler: sectionFonts
+    Route path: 'icon',       handler: sectionIcon
+    Route path: 'list',       handler: sectionList
+    Route path: 'message',    handler: sectionMessage
+    Route path: 'navbar',     handler: sectionNavbar
+    Route path: 'label',      handler: sectionLabel
+    Route path: 'banner',     handler: sectionBanner
     Route path: 'components', handler: sectionComponents
     NotFoundRoute handler: notFound
 
